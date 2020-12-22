@@ -48,5 +48,7 @@ router.use((err, req, res, next) => {
 
 router.use('/sessions', require('./sessions'))
 router.use('/users', require('./users'))
+router.use('/dishes', require('./dishes'))
+router.use('/time-tables', require('./time-tables'))
 
 module.exports = router

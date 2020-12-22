@@ -17,5 +17,7 @@ module.exports = {
   DriverConfiguration: require('./models/driver-configuration.model'),
   User: require('./models/user.model'),
   Session: require('./models/session.model'),
+  TimeTable: require('./models/time-table.model'),
+  Dish: require('./models/dish.model'),
   isValidId,
 }
